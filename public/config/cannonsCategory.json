@@ -1,0 +1,37 @@
+{
+  "cannon1": {
+    "className": "cannon1",
+    "bottom": 10,
+    "actionParams": [0, -75, -150, -222, -296]
+  },
+  "cannon2": {
+    "className": "cannon2",
+    "bottom": 10,
+    "actionParams": [0, -77, -154, -228, -304]
+  },
+  "cannon3": {
+    "className": "cannon3",
+    "bottom": 10,
+    "actionParams": [0, -77, -154, -228, -304]
+  },
+  "cannon4": {
+    "className": "cannon4",
+    "bottom": 4,
+    "actionParams": [0, -83, -168, -249, -332]
+  },
+  "cannon5": {
+    "className": "cannon5",
+    "bottom": 8,
+    "actionParams": [0, -86, -172, -255, -340]
+  },
+  "cannon6": {
+    "className": "cannon6",
+    "bottom": 2,
+    "actionParams": [0, -92, -183, -271, -361]
+  },
+  "cannon7": {
+    "className": "cannon7",
+    "bottom": 2,
+    "actionParams": [0, -96, -192, -283, -376]
+  }
+}

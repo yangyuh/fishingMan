@@ -1,0 +1,317 @@
+@charset "utf-8";
+.container {
+	width: 1024px;
+	height: 614.4px;
+	background-image: url("../images/game_bg_2_hd.jpg");
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+body {
+	background-color: black;
+}
+.bottom-bar {
+	width: 765px;
+	height: 72px;
+	background-image: url("../images/bottom-bar.png");
+	position: absolute;
+	z-index: 999;
+	bottom: 0px;
+	left: 130px;
+}
+.panel {
+	width: 1024px;
+	height: 550px;
+	position: absolute;
+	z-index: 1000;
+}
+.minus {
+	width: 44px;
+	height: 31px;
+	background-image: url("../images/cannon_minus.png");
+	cursor: pointer;
+	position: absolute;
+	left: 340px;
+	bottom: 5px;
+}
+.plus {
+	width: 44px;
+	height: 31px;
+	background-image: url("../images/cannon_plus.png");
+	cursor: pointer;
+	position: absolute;
+	left: 470px;
+	bottom: 5px;
+}
+
+.cannon1 {
+	width: 74px;
+	height: 74px;
+	background: url("../images/cannon1.png") 0px 0px no-repeat;
+	transition: transform 0.05s linear;
+	position: absolute;
+	bottom: 0;
+	z-index: 1001;
+}
+.cannon2 {
+	width: 74px;
+	height: 75px;
+	background: url("../images/cannon2.png") 0px 0px no-repeat;
+	transition: transform 0.05s linear;
+	position: absolute;
+	bottom: 0;
+	z-index: 1001;
+}
+.cannon3 {
+	width: 74px;
+	height: 75px;
+	background: url("../images/cannon3.png") 0px 0px no-repeat;
+	transition: transform 0.05s linear;
+	position: absolute;
+	bottom: 0;
+	z-index: 1001;
+}
+.cannon4 {
+	width: 74px;
+	height: 75px;
+	background: url("../images/cannon4.png") 0px 0px no-repeat;
+	transition: transform 0.05s linear;
+	position: absolute;
+	bottom: 0;
+	z-index: 1001;
+}
+.cannon5 {
+	width: 74px;
+	height: 81px;
+	background: url("../images/cannon5.png") 0px 0px no-repeat;
+	transition: transform 0.05s linear;
+	position: absolute;
+	bottom: 0;
+	z-index: 1001;
+	/*outline: 1px solid red;*/
+}
+.cannon6 {
+	width: 74px;
+	height: 81px;
+	background: url("../images/cannon6.png") 0px 0px no-repeat;
+	transition: transform 0.05s linear;
+	position: absolute;
+	bottom: 0;
+	z-index: 1001;
+}
+.cannon7 {
+	width: 74px;
+	height: 88px;
+	background: url("../images/cannon7.png") 0px 0px no-repeat;
+	transition: transform 0.05s linear;
+	position: absolute;
+	bottom: 0;
+	z-index: 1001;
+}
+.bullet1 {
+	width: 24px;
+	height: 26px;
+	background: url("../images/bullet1.png") 0px 0px no-repeat;
+	position: absolute;
+	z-index: 1000;
+}
+.bullet2 {
+	position: absolute;
+	background: url("../images/bullet2.png") no-repeat 50% 50%;
+	width: 24px;
+	height: 26px;
+	z-index: 1000;
+	/*outline: 1px solid red;*/
+}
+.bullet3 {
+	position: absolute;
+	background: url("../images/bullet3.png") no-repeat 50% 50%;
+	width: 24px;
+	height: 26px;
+	z-index: 1000;
+	/*outline: 1px solid red;*/
+}
+.bullet4 {
+	position: absolute;
+	background: url("../images/bullet4.png") no-repeat 50% 50%;
+	width: 29px;
+	height: 30px;
+	z-index: 1000;
+	/*outline: 1px solid red;*/
+}
+.bullet5 {
+	position: absolute;
+	background: url("../images/bullet5.png") no-repeat 50% 50%;
+	width: 30px;
+	height: 34px;
+	z-index: 1000;
+	/*outline: 1px solid red;*/
+}
+.bullet6 {
+	position: absolute;
+	background: url("../images/bullet6.png") no-repeat 50% 50%;
+	width: 32px;
+	height: 38px;
+	z-index: 1000;
+	/*outline: 1px solid red;*/
+}
+.bullet7 {
+	width: 32px;
+	height: 38px;
+	background: url("../images/bullet7.png") 0px 0px no-repeat;
+	position: absolute;
+	z-index: 1000;
+}
+
+.shark1 {
+	width: 502px;
+	height: 216px;
+	background: url("../images/shark1.png") -6px -34px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+}
+.fish1 {
+	width: 56px;
+	height: 40px;
+	background: url("../images/fish1.png") -2px 3px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+	/*border: 1px solid red;*/
+}
+.fish2 {
+	width: 75px;
+	height: 62px;
+	background: url("../images/fish2.png") -3px 0px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+	/*border: 1px solid red;*/
+}
+.fish3 {
+	width: 72px;
+	height: 54px;
+	background: url("../images/fish3.png") -3px 0px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+	/*border: 1px solid red;*/
+}
+.fish4 {
+	width: 80px;
+	height: 54px;
+	background: url("../images/fish4.png") 0px 0px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+	/*border: 1px solid red;*/
+}
+.fish5 {
+	width: 120px;
+	height: 93px;
+	background: url("../images/fish5.png") -11px 0px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+	/*border: 1px solid red;*/
+}
+.fish6 {
+	width: 101px;
+	height: 89px;
+	background: url("../images/fish6.png") -11px 0px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+	/*border: 1px solid red;*/
+}
+.fish10 {
+	width: 175px;
+	height: 185px;
+	background: url("../images/fish10.png") -11px 0px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+	/*border: 1px solid red;*/
+}
+
+ul {
+	list-style-type: none;
+}
+ul.total-panel {
+	position: absolute;
+	bottom: -12px;
+	z-index: 3000;
+	left: 110px;
+}
+li {
+	float: left;
+	margin-right: 5px;
+}
+.total {
+	width: 18px;
+	height: 21px;
+	/*position: relative;*/
+	/*position: absolute;*/
+	background: url("../images/number_black.png") -1px -219px no-repeat;
+	z-index: 3000;
+	bottom: 0;
+}
+.silverCoin {
+	width: 60px;
+	height: 59px;
+	background: url("../images/coinAni1.png") 0px 0px no-repeat;
+	position: absolute;
+	transition: transform 0.7s linear;
+}
+.goldCoin {
+	width: 60px;
+	height: 59px;
+	background: url("../images/coinAni2.png") 0px 0px no-repeat;
+	position: absolute;
+	transition: transform 0.7s linear;
+}
+.web1 {
+	background: url("../images/web1.png") no-repeat 0px 0px;
+	height: 116px;
+	width: 118px;
+	position: absolute;
+}
+.web2 {
+	background: url("../images/web2.png") no-repeat 0px 0px;
+	height: 137px;
+	width: 142px;
+	position: absolute;
+}
+.web3 {
+	background: url("../images/web3.png") no-repeat 0px 0px;
+	height: 156px;
+	width: 162px;
+	position: absolute;
+}
+.web4 {
+	background: url("../images/web4.png") no-repeat 0px 0px;
+	height: 180px;
+	width: 174px;
+	position: absolute;
+}
+.web5 {
+	background: url("../images/web5.png") no-repeat 0px 0px;
+	height: 163px;
+	width: 155px;
+	position: absolute;
+}
+.web6 {
+	background: url("../images/web6.png") no-repeat 0px 0px;
+	height: 191px;
+	width: 181px;
+	position: absolute;
+}
+.web7 {
+	background: url("../images/web7.png") no-repeat 0px 0px;
+	height: 242px;
+	width: 244px;
+	position: absolute;
+}
+
+.point {
+	width: 36px;
+	height: 47px;
+	background: url("../images/coinText.png") -1px 0px no-repeat;
+}
+.get-point-panel {
+	position: absolute;
+	transition: transform 0.5s linear;
+}

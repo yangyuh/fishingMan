@@ -1,0 +1,58 @@
+{
+  "bullet1" : {
+    "className": "bullet1",
+    "width": 24,
+    "height": 26,
+    "left": 542,
+    "bottom": 569,
+    "score": 1
+  },
+  "bullet2": {
+    "className": "bullet2",
+    "width": 24,
+    "height": 26,
+    "left": 543,
+    "bottom": 571,
+    "score": 2
+  },
+  "bullet3": {
+    "className": "bullet3",
+    "width": 24,
+    "height": 26,
+    "left": 542,
+    "bottom": 571,
+    "score": 3
+  },
+  "bullet4": {
+    "className": "bullet4",
+    "width": 24,
+    "height": 26,
+    "left": 539,
+    "bottom": 565,
+    "score": 4
+  },
+  "bullet5": {
+    "className": "bullet5",
+    "width": 30,
+    "height": 34,
+    "left": 539,
+    "bottom": 561,
+    "score": 5
+  },
+  "bullet6": {
+    "className": "bullet6",
+    "width": 24,
+    "height": 26,
+    "left": 537,
+    "bottom": 557,
+    "score": 6
+  },
+  "bullet7" : {
+    "className": "bullet7",
+    "width": 32,
+    "height": 38,
+    "left": 539,
+    "bottom": 550,
+    "score": 7
+  }
+}

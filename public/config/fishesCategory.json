@@ -1,0 +1,72 @@
+[
+  {
+    "className": "shark1",
+    "width": 502,
+    "height": 216,
+    "rotateDegree": 3,
+    "generateWeight": 5,
+    "swingParams": [-34, -304, -574, -844, -1114, -1384, -1654, -1924],
+    "death": [-2158,-2428, -2709, -2969],
+    "score": 100
+  },
+  {
+    "className": "fish1",
+    "width": 56,
+    "height": 40,
+    "rotateDegree": 2,
+    "generateWeight": 200,
+    "swingParams": [3, -35, -72, -109],
+    "death": [-147,-184, -220, -260],
+    "score": 1
+  },
+  {
+    "className": "fish2",
+    "width": 75,
+    "height": 62,
+    "rotateDegree": 2,
+    "generateWeight": 50,
+    "swingParams": [0, -64, -126, -191],
+    "death": [-255,-319, -381, -445],
+    "score": 5
+  },
+  {
+    "className": "fish3",
+    "width": 72,
+    "height": 54,
+    "rotateDegree": 2,
+    "generateWeight": 50,
+    "swingParams": [0, -55, -111, -167],
+    "death": [-223,-278, -334, -389],
+    "score": 10
+  },
+  {
+    "className": "fish4",
+    "width": 80,
+    "height": 54,
+    "rotateDegree": 2,
+    "generateWeight": 100,
+    "swingParams": [1,-58,-117,-176],
+    "death": [-239,-296, -355, -415],
+    "score": 20
+  },
+  {
+    "className": "fish5",
+    "width": 120,
+    "height": 93,
+    "rotateDegree": 2,
+    "generateWeight": 100,
+    "swingParams": [-16, -139, -260, -382],
+    "death": [-490,-610, -736, -858],
+    "score": 30
+  },
+  {
+    "className": "fish10",
+    "width": 175,
+    "height":185,
+    "rotateDegree": 2,
+    "generateWeight": 10,
+    "swingParams": [0, -187, -373, -558, -745, -933],
+    "death":[-1121,-1308, -1485, -1673],
+    "score": 40
+  }
+]

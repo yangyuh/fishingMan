@@ -1,0 +1,37 @@
+{
+  "web1": {
+    "className": "web1",
+    "width": 116,
+    "height": 118
+  },
+  "web2": {
+    "className": "web2",
+    "width": 137,
+    "height": 142
+  },
+  "web3": {
+    "className": "web3",
+    "width": 156,
+    "height": 162
+  },
+  "web4": {
+    "className": "web4",
+    "width": 180,
+    "height": 174
+  },
+  "web5": {
+    "className": "web5",
+    "width": 163,
+    "height": 155
+  },
+  "web6": {
+    "className": "web6",
+    "width": 191,
+    "height": 181
+  },
+  "web7": {
+    "className": "web7",
+    "width": 242,
+    "height": 244
+  }
+}
